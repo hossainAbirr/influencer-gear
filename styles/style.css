@@ -16,7 +16,9 @@ body {
 }
 /* header secttion  */
 .header {
-    padding: 0 100px;
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 0 100px;
 }
 nav {
   display: flex;
@@ -62,17 +64,108 @@ nav li a {
   color: #3a3a3a;
   font-weight: 600;
   margin-bottom: 10px;
-
 }
 /* main section  */
- main {
-    padding: 0 100px;
- }
- .sponsor-container {
-    display: flex;
-    justify-content: space-between;
-    margin:100px 0;
- }
- .card-container {
-    display: grid;
- }
+main {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 0 100px;
+}
+.sponsor-container {
+  display: flex;
+  justify-content: space-between;
+  margin: 100px 0;
+}
+
+/* card section  */
+.card-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 45px;
+  margin-bottom: 175px;
+}
+.box {
+  border-radius: 5px;
+  background: #fff;
+  box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.15);
+  padding: 20px;
+}
+.box img {
+  width: 100%;
+}
+.card-title {
+  color: #18191f;
+  font-size: 28px;
+  font-weight: 500;
+}
+.card-container > p {
+  color: rgba(0, 0, 0, 0.87);
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 400;
+}
+.card-container > .card-descripttion {
+  color: #787885;
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+/* feature section  */
+.feature-container {
+  height: 40vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.feature-img {
+  width: 30%;
+  height: 33vh;
+}
+.feature-img img {
+  width: 100%;
+  height: 100%;
+}
+.feature-content {
+  width: 50%;
+}
+.feature-title {
+  color: #0a0826;
+  font-family: Poppins;
+  font-size: 38px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+.feature-description {
+  color: #6c6c6c;
+  font-family: Poppins;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+/* footer section  */
+.footer {
+  background: #0a0826;
+  height: 35vh;
+  margin-top: 150px;
+  text-align: center;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footer-title {
+  font-family: Poppins;
+  font-size: 24px;
+  font-weight: 700;
+  margin-top: 20px ;
+  margin-bottom: 10px ;
+  
+}
+.footer p {
+  font-weight: 500;
+  margin-bottom: 20px ;
+}
+.footer img {
+  margin-bottom: 20px ;
+}
