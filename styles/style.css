@@ -1,0 +1,78 @@
+/* common shared styles  */
+.btn-primary {
+  border-radius: 41px;
+  background: #e02c6d;
+  padding: 10px 20px;
+  border: none;
+  color: #fff;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  font-family: "Poppins", sans-serif;
+}
+/* header secttion  */
+.header {
+    padding: 0 100px;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  height: 140px;
+  align-items: center;
+}
+nav ul {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+}
+nav li a {
+  text-decoration: none;
+}
+.logo {
+  color: #3a3a3a;
+  font-family: Poppins;
+  font-size: 24px;
+  font-weight: 700;
+}
+nav li a {
+  color: #3a3a3a;
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 600;
+}
+/* banner section   */
+.banner-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 100px;
+}
+
+.banner-heading {
+  color: #3a3a3a;
+  font-size: 4.1vw;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+.banner-description {
+  color: #3a3a3a;
+  font-weight: 600;
+  margin-bottom: 10px;
+
+}
+/* main section  */
+ main {
+    padding: 0 100px;
+ }
+ .sponsor-container {
+    display: flex;
+    justify-content: space-between;
+    margin:100px 0;
+ }
+ .card-container {
+    display: grid;
+ }
