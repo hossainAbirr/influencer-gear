@@ -1,0 +1,39 @@
+/* media queriews for small devices  */
+@media screen and (max-width:576px) {
+    .header, main {
+        padding: 20px;
+    }
+    nav, .banner-container {
+        flex-direction: column;
+    }
+    nav ul {
+        gap: 10px
+    }
+    .logo, .banner-heading {
+        font-size: 30px;
+    }
+    .sponsor-container{
+        flex-wrap: wrap;
+        align-content: space-around;
+    }
+    .card-container {
+        grid-template-columns: 1fr;
+        margin-bottom: 50px;
+
+    }
+    .feature-container {
+        flex-direction: column-reverse;
+        text-align: center;
+        height: auto;
+        gap:25px;
+        
+
+    }
+    .feature-img, .feature-content {
+        width: auto;
+    }
+    .footer {
+        margin-top: 50px;
+    }
+    
+}

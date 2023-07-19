@@ -65,6 +65,9 @@ nav li a {
   font-weight: 600;
   margin-bottom: 10px;
 }
+.banner-img {
+  width: 100%;
+}
 /* main section  */
 main {
   max-width: 1440px;
@@ -72,6 +75,7 @@ main {
   padding: 0 100px;
 }
 .sponsor-container {
+  height: 100px;
   display: flex;
   justify-content: space-between;
   margin: 100px 0;
@@ -109,6 +113,12 @@ main {
   font-family: Inter;
   font-size: 14px;
   font-weight: 700;
+}
+.card-container .more {
+  color: rgba(224, 44, 109, 0.87);
+  font-family: Poppins;
+  font-weight: 700;
+  /* text-align: right; */
 }
 
 /* feature section  */
@@ -158,14 +168,13 @@ main {
   font-family: Poppins;
   font-size: 24px;
   font-weight: 700;
-  margin-top: 20px ;
-  margin-bottom: 10px ;
-  
+  margin-top: 20px;
+  margin-bottom: 10px;
 }
 .footer p {
   font-weight: 500;
-  margin-bottom: 20px ;
+  margin-bottom: 20px;
 }
 .footer img {
-  margin-bottom: 20px ;
+  margin-bottom: 20px;
 }
