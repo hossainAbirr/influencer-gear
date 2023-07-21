@@ -3,8 +3,11 @@
     .header, main {
         padding: 20px;
     }
-    nav, .banner-container {
+    nav, ul, .banner-container {
         flex-direction: column;
+    }
+    nav {
+        height: auto;
     }
     nav ul {
         gap: 10px
@@ -14,12 +17,16 @@
     }
     .sponsor-container{
         flex-wrap: wrap;
-        align-content: space-around;
+        row-gap: 20px;
+    }
+    .sponsor-container img {
+        width: 25%;
     }
     .card-container {
         grid-template-columns: 1fr;
-        margin-bottom: 50px;
-
+    }
+    .box-10 {
+        grid-column: 1/2;
     }
     .feature-container {
         flex-direction: column-reverse;

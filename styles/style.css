@@ -7,7 +7,7 @@
   color: #fff;
   cursor: pointer;
 }
-*{
+* {
   padding: 0;
   margin: 0;
 }
@@ -17,11 +17,11 @@ body {
 /* hover effects  */
 .btn-primary:hover {
   transform: scale(1.25);
-  transition: transform .3s;
+  transition: transform 0.3s;
 }
 nav > ul > li > a:hover {
   transform: scale(1.75);
-  transition: transform .3s, background-color .4s;
+  transition: transform 0.3s, background-color 0.4s;
   background-color: #e02c6d;
   color: #fff;
   padding: 10px 20px;
@@ -29,23 +29,23 @@ nav > ul > li > a:hover {
   border-radius: 30px;
 }
 .sponsor-container img:hover {
-  transform: scale(1.25);
-  transition: transform .3s;
+  transform: scale(.85);
+  transition: transform 0.3s;
   cursor: pointer;
 }
 .card-container > .box:hover {
-  transform: scale(.95);
-  transition: transform .3s;
+  transform: scale(0.95);
+  transition: transform 0.3s;
   cursor: pointer;
 }
 .footer img:hover {
   transform: scale(1.75);
-  transition: transform .2s;
+  transition: transform 0.2s;
   padding: 10px;
   cursor: pointer;
 }
-.more:hover{
-  transform: scale(1.20) translateX(1000px);
+.more:hover {
+  transform: scale(1.2) translateX(1000px);
   transition: transform 10s;
   margin: 10px 0 0 10px;
 }
@@ -110,13 +110,16 @@ main {
   margin: 0 auto;
   padding: 0 100px;
 }
+/* sponsor section  */
 .sponsor-container {
   height: 100px;
   display: flex;
   justify-content: space-between;
   margin: 100px 0;
 }
-
+.sponsor-container img {
+ width: 13%;
+}
 /* card section  */
 .card-container {
   width: fit-content;
@@ -124,6 +127,15 @@ main {
   grid-template-columns: repeat(3, 1fr);
   gap: 45px;
   margin-bottom: 175px;
+}
+.card-heading {
+  color: #3a3a3a;
+  font-feature-settings: "clig" off, "liga" off;
+  font-size: 28px;
+  font-weight: 600;
+  line-height: 70px; /* 250% */
+  text-align: center;
+  margin: 50px 0;
 }
 .box {
   border-radius: 5px;
@@ -133,6 +145,10 @@ main {
 }
 .box img {
   width: 100%;
+}
+.box-10 {
+  grid-column: 3/4;
+  text-align: right ;
 }
 .card-title {
   color: #18191f;
@@ -156,7 +172,7 @@ main {
   color: rgba(224, 44, 109, 0.87);
   font-family: Poppins;
   font-weight: 700;
-} 
+}
 
 /* feature section  */
 .feature-container {
